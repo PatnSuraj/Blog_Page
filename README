@@ -1,1 +1,5 @@
-Description of project
+Description of project:
+
+The project consists of a blog page developed using PHP, SQL, HTMK and CSS script. 
+This creates sessions, save credentials in phpMyAdmin and use it validate when user signs in.
+It has a features of login, logout, blog vreation, creating account, etc.
