@@ -1,0 +1,55 @@
+.content {
+  max-width: 800px;
+  margin: auto;
+}
+
+.heading {
+	/*margin-top: 10px;*/
+	margin-bottom: 20px;
+	color: #1ABC9C;
+}
+
+/*Referred code available at: https://www.w3schools.com/howto/howto_css_inline_form.asp
+Accessed on April 4th, 2021
+*/
+
+.form-inline label {
+  width: 90px; 
+  margin-left: 120px;
+  display: inline-block;
+}
+
+.form-inline input {
+	margin-top: 10px;
+	padding: 6px;
+  	border: 1px solid purple;
+  	border-radius: 5px;
+  	width: 400px;
+}
+
+.form-inline button {
+	margin-left: 360px;
+	margin-top: 10px;
+  	padding: 10px 20px;
+  	border: 1px solid grey;
+  	color: black;
+  	cursor: pointer;
+  	border-radius: 5px;
+  	box-shadow: 5px 10px 4px #7F8C8D;
+ }
+
+.form-inline button:hover {
+  background-color: #DFFF00;
+  color: black;
+}
+
+@media (max-width: 800px) {
+  .form-inline input {
+    margin: 10px 0;
+  }
+  
+  .form-inline {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
